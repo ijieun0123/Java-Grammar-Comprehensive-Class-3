@@ -40,3 +40,4 @@ AddOperation, SubstractOperation, MultiplyOperation, DivideOperation 클래스�
 Calculator 클래스는 4개의 연산 클래스들이 상속받고 있는 AbstractOperation 클래스만을 포함합니다.
 생성자 혹은 Setter를 사용하여 연산을 수행할 연산 클래스의 객체를 AbstractOperation 클래스 타입의 필드에 주입합니다.(다형성)
 calculate 메서드에서는 더 이상 연산자 타입을 받아 구분할 필요 없이 주입 받은 연산 클래스의 operate 메서드를 통해 바로 연산을 수행합니다.
+
